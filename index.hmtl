@@ -12,7 +12,6 @@
 <body>
   
   <!--navbar-->
-  
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,9 +27,20 @@
   </div>
 </nav>
   
+<!--jumbotron-->
+<img class="jumbotron" src="jumbotron.png" alt="Caroline Wisse Gonzales, Front-End Web Developer and Graphic Artist">
   
-  
-  
+<!--about section-->
+<figure class="snip1578">
+  <img src="headshot.jpg" alt="Caroline's Picture" />
+  <figcaption>
+    <h3>Caroline Wisse Gonzales</h3>
+    <div class="icons"><a href="#"><i class="ion-social-twitter"></i></a>
+      <a href="#"> <i class="ion-social-instagram-outline"></i></a>
+      <a href="#"> <i class="ion-social-github"></i></a>
+    </div>
+  </figcaption>
+</figure>
   
   
   
