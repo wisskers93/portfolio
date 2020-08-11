@@ -1,6 +1,17 @@
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:200);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.jumbotron {
+  max-width: 100%;
+  height: auto;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(43, 114, 185);
+}
+
+
+
+
 .snip1578 {
   font-family: 'Open Sans', Arial, sans-serif;
   position: relative;
@@ -16,14 +27,6 @@
   border-radius: 5px;
 }
 
-.snip1578 *,
-.snip1578:before,
-.snip1578:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
 
 .snip1578 img {
   max-width: 35%;
@@ -55,17 +58,9 @@
 }
 
 .snip1578 .icons a {
-  color: #ccc;
+  color: rgb(151, 148, 148);
 }
 
 .snip1578 .icons a:hover {
   color: #2980b9;
-}
-
-
-/* Demo purposes only */
-
-body {
-  background-color: #212121;
-  text-align: center;
 }
