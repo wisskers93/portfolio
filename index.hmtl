@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<title>CWG Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CAROLINE<span class="w3-hide-small"> WISSE</span> GONZALES</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-small">
+      <img src="finalheadshot.png" class=" w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="300">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-16">
+      <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>Graphic Designer | Web Developer | Artist</em></p>
+      <br>
+      <p>I am an experienced and innovative graphic designer with a passion for web development. Detail oriented and resourceful, I am a valuable asset to any team that requires excellence in front-end web development, social media marketing, design, and creative and professional writing. As a freelance designer, I love bringing my clients’ visions to life and evolving their unique and dynamic presence on the web. As an employee, I am a thoughtful communicator who is constantly looking for opportunities to learn and grow in my field. My unique work-experiences and talent for problem-solving paired with my Bachelor’s Degree in Studio Art from Wake Forest University make me an indispensable multidisciplinary powerhouse who is up for any challenge. </p>
+    </div>
+  </div>
+  </div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="container">
+  <h4 class="w3-center">What I'm good at:</h4>
+    <br>
+    <br>
+   <section class="customer-logos slider">
+      <div class="slide"><img src="adobe-photoshop-cc-logo-CBD0AAA3A7-seeklogo.com.png"></div>
+      <div class="slide"><img src="adobe-illustrator-cc.svg"></div>
+      <div class="slide"><img src="Adobe_Premiere_Pro_Logo.svg.png"></div>
+     <div class="slide"><img src="bootstrap.jfif"></div>
+      <div class="slide"><img src="canva.png"></div>
+      <div class="slide"><img src="blue-wordpress-logo.png"></div>
+     <div class="slide"><img src="drupal 8 logo Stacked CMYK 300.png"></div>
+     <div class="slide"><img src="githubnew2.png"></div>
+      <div class="slide"><img src="css-logo.png"></div>
+     <div class="slide"><img src="HTML5_Logo_512.png"></div>
+      <div class="slide"><img src="1043px-Microsoft_PowerPoint_2013_logo.svg.png"></div>
+     <div class="slide"><img src="microsoft-word-2013-logo.svg"></div>
+     
+     
+      
+   </section>
+    </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+   
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+   
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">CREATIVE PROJECTS</h3>
+   <p class="w3-center"><em>Click on the images to enlarge.</em></p><br>
+
+   
+       
+        <main class="grid">
+      <img src="watercolor.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="Charlotte Watercolor in Photoshop">
+      <img src="gooutside.jpg" style="width:90%"onclick="onClick(this)" class="w3-hover-opacity" alt="Adventure">
+      <img src="BFS Logo.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="Podcast Logo (small)">
+      <img src="triangleface copy2.jpg" style="width:90%; overflow:hidden;" onclick="onClick(this)" class="w3-hover-opacity" alt="Fractured Planes">         
+        <img src="fightfire.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="Fight fire with fire">
+      <img src="paintbrushes final.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="Picasso Quote">
+      <img src="Cattern copy.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cat-tern">
+      <img src="BFBS Logo Splatters (Large).jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="Commissioned design for podcast cover-art">
+  <img src="TPQC2.png" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity">
+ 
+          <img src="sandra pines.png"  style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" >
+  <img src="flyer 5_17_19.png" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" >
+ <img src="TPQC Save the Date.png" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" >
+    <img src="Conducting and Publishing Experiments.png" style="width:90%" overflow:hidden;" onclick="onClick(this)" class="w3-hover-opacity" >
+
+  <img src="Copy of PPOL Banner.png" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" >
+  <img src="March 11th Event Flyer.png " style="width:90%" onclick="onClick(this)" class="w3-hover-opacity">
+
+</main>
+        
+        
+        <br>
+        <br>
+          
+          
+        <div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">FEATURED WEBSITES</h3>
+  <p class="w3-center"><em>Click to follow the links.</em></p><br>
+    <div class="row pt-5 justify-content-center align-items-center">
+           <div class="col-4 ">
+        <a href="https://www.physicaltherapycenter.org/" target="_blank"><img alt="image" class="img-fluid" src="theptcenter.png" ></a>
+      </div>
+      <div class="col-4 ">
+        <a href="https://publicpolicy.uncc.edu/" target="_blank"><img alt="image" class="img-fluid" src="publicpolicy.png" ></a>
+      </div>
+  
+  <br>
+        <br>
+   </div>
+   </div>
+   </div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col l6 w3-container">
+      <img src="clay-banks-z-D0pyZRNkA-unsplash.jpg" class="w3-image w3-round" style="width:75%; height:75%; float:right; margin-right:0px; padding-right:0px;" ">
+    </div>
+    <div class="w3-col l6 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <h3 class="w3-margin-right">LET'S WORK TOGETHER</h3>
+  <p class="w3-margin-right""><em>Contact me:</em></p>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Charlotte, NC<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 910-470-2930<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: cmwgonzales18@gmail.com<br>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+ 
+</script>
+  <script>
+    $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</body>
+</html>
