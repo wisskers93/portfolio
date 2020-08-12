@@ -1,66 +1,22 @@
 
-.jumbotron {
-  max-width: 100%;
-  height: auto;
-  margin: 0%;
-}
-
-body {
-  background-color: rgb(43, 114, 185);
-}
-
-
-
-
-.snip1578 {
-  font-family: 'Open Sans', Arial, sans-serif;
-  position: relative;
-  display: inline-block;
-  margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+.header{
+  position: fixed;
   width: 100%;
-  color: #000;
-  text-align: left;
-  font-size: 16px;
-  background: #fff;
-  border-radius: 5px;
+  height: 25em;
+  background-image: url("jumbotron.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 
-.snip1578 img {
-  max-width: 35%;
-  margin-top: -15px;
-  margin-left: 60%;
-  margin-bottom: 15px;
-  backface-visibility: hidden;
-  vertical-align: top;
-  border-radius: 5px;
+body, html {
+background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(243,243,243,1) 30%, rgba(255,255,255,1) 100%);
+  line-height: 1.8;
 }
 
-.snip1578 figcaption {
-  position: absolute;
-  top: 0;
-  right: 40%;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
-.snip1578 h3 {
-  margin: 0;
-  font-size: 1.1em;
-  font-weight: normal;
-}
-
-.snip1578 .icons {
-  font-size: 1.6rem;
-}
-
-.snip1578 .icons a {
-  color: rgb(151, 148, 148);
-}
-
-.snip1578 .icons a:hover {
-  color: #2980b9;
-}
