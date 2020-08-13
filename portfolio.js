@@ -15,3 +15,18 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+// skill scroll
+
+// $(document).ready(()=> {
+//     $('#slideshow .slick').slick();
+// });
+          
+$(function () {
+    $('.autoplay').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+});
