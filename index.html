@@ -20,16 +20,16 @@
 
     
     <div id="navbar">
-      <a href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#slideshow">Skills</a>
+      <a href="#portfolio">Portfolio</a>
     </div>
 
     
 
     <!-- Resume Section -->
 
-    <div class="content container">
+    <div id="about" class="content container">
     <div class="card-grid">
       <div class="card p-3 headshot" style="text-align: center;">
         <img src="images/headshot.jpg" class="card-img-top" alt="...">
@@ -37,13 +37,13 @@
           <p class="card-text">I am not your typical web developer - As a Wake Forest graduate with a Bachelor's in Studio Art and a former professional wedding cake decorator, I have taken a unique path to the tech world. I have spent the past two years immersed in everything code - From online tutorials and HackerRank problems to the creation of my own Web Design business, I have made it my goal to jump into the deep end of programming. This winter, I joined a coding Bootcamp and am more equipped than ever to take my next step into professional web development.</p>
           <div class="row links">
             <div class="column social">
-              <a href="#" class="social-link1 button"><img src="images/email.png" style="width: 5em;"></a>
+              <a href="mailto: cmwgonzales18@gmail.com"><img  class="social-button" src="images/email.png"></a>
             </div>
             <div class="column social">
-              <a href="#" class="social-link2 social-button"><img src="images/linkedin-logo.png" style="width: 2em;"></a>
+              <a href="https://www.linkedin.com/in/caroline-wisse-gonzales/"><img  class="social-button" src="images/linkedin-logo.png" ></a>
             </div>
             <div class="column social">
-              <a href="#" class="social-link3 social-button"><img src="images/GitHub-Mark.png" style="width: 3em;"></a>
+              <a href="https://github.com/wisskers93?tab=overview&from=2020-08-01&to=2020-08-20"><img  class="social-button" src="images/GitHub-Mark.png" ></a>
             </div>
           </div>
       </div>
@@ -160,43 +160,41 @@
     <!-- Portfolio section -->
 
 
-    <h3>My Work</h3>
+    <h3 id="portfolio">My Work</h3>
     <br>
       <div class="portfolio container">
 
         <div class="row myWork">
           <div class="column left">
            
-            <img id="largeImg">
-            <p id="imgCaption">Select an image to learn more...</p>
+            <a id="imgLink"><img id="largeImg" src="/images/triangleface copy2.jpg"></a>
+            <p id="imgCaption">Creative Project in Adobe Illustrator</p>
           </div>
           <div class="column right">
             <section class="masonry-gallery">
-              <button class="item"><img src="/Images/theptcenter.png" alt="The PT Center Website link" onclick="changeImg1()"></button>
-              <button class="item"><img alt="Public Policy website link img" src="/Images/publicpolicy.png" onclick="changeImg2()" ></button>
-              <button class="item"><img src="/Images/CWG Web Designs.png" onclick="changeImg6()" alt="Logo for CWG Web Design"></button>
-              <button class="item"><img src="/images/triangleface copy2.jpg" onclick="changeImg4()" alt="Triangle Portrait"></button>
-              <button class="item"><img src="/Images/March 11th Event Flyer.png" onclick="changeImg7()" alt="HBP Game link"></button>
-
-              <button class="item"><img alt="Southern Charm Jewelers link" src="/Images/southerncharm.png" onclick="changeImg3()" ></button>
-              <button class="item"><img src="/Images/hbp.png" onclick="changeImg7()" alt="HBP Game link"></button>
-              <button class="item"><img src="/Images/paintbrushes final.jpg" onclick="changeImg7()" alt="HBP Game link"></button>
-
-              <button class="item"><img src="/Images/Conducting and Publishing Experiments.png" onclick="changeImg7()" alt="HBP Game link"></button>
-              <button class="item"><img src="/Images/Cattern copy.jpg" onclick="changeImg7()" alt="HBP Game link"></button>
-
-              <button class="item"><img src="/Images/weather-app.png" onclick="changeImg8()" alt="Weather app link"></button>
-              <button class="item"><img src="/Images/BFBS Logo Splatters (Large).jpg" onclick="changeImg5()" alt="Commissioned design for podcast cover-art"></button>
-              
-              <button class="item"><img src="/Images/TPQC Save the Date.png" onclick="changeImg7()" alt="HBP Game link"></button>
-              <button class="item"><img src="/Images/flyer 5_17_19.png" onclick="changeImg7()" alt="HBP Game link"></button>
+              <button class="item"><img src="/Images/theptcenter.png" onclick="changeImg(this)" alt="Wordpress Site for The Physical Therapy Center" link="https://www.physicaltherapycenter.org/"></button>
+              <button class="item"><img src="/Images/publicpolicy.png" onclick="changeImg(this)" alt="Drupal Site for The UNCC Public Policy Program" link="https://www.publicpolicy.uncc.edu/"></button>
+              <button class="item"><img src="/Images/CWG Web Designs.png"onclick="changeImg(this)" alt="Logo for CWG Web Design" link="#portfolio"></button>
+              <button class="item"><img src="/images/triangleface copy2.jpg" onclick="changeImg(this)" alt="Creative Project in Adobe Illustrator" link="#portfolio"></button>
+              <button class="item"><img src="/Images/March 11th Event Flyer.png" onclick="changeImg(this)" alt="Flyer Design for UNCC Event" link="#portfolio"></button>
+              <button class="item"><img src="/Images/southerncharm.png" onclick="changeImg(this)" alt="Wordpress Site for Southern Charm Jewelers" link="https://www.southerncharmjewelers.com/" ></button>
+              <button class="item"><img src="/Images/hbp.png" onclick="changeImg(this)" alt="Rock, Paper, Scissors Game deployed on GitHub Pages" link="https://wisskers93.github.io/HBP/"></button>
+              <button class="item"><img src="/Images/paintbrushes final.jpg" onclick="changeImg(this)" alt="Creative Project in Photoshop" link="#portfolio"></button>
+              <button class="item"><img src="/Images/Conducting and Publishing Experiments.png" onclick="changeImg(this)" alt="Flyer Design for UNCC Event" link="#portfolio"></button>
+              <button class="item"><img src="/Images/Cattern copy.jpg" onclick="changeImg(this)" alt="Creative Project in Adobe Illustrator" link="#portfolio"></button>
+              <button class="item"><img src="/Images/weather-app.png" onclick="changeImg(this)" alt="React Weather App" link="https://wisskers93.github.io/weather-react-app/"></button>
+              <button class="item"><img src="/Images/BFBS Logo Splatters (Large).jpg" onclick="changeImg(this)" alt="Commissioned Design for Podcast Website cover-art" link="#portfolio"></button>
+              <button class="item"><img src="/Images/TPQC Save the Date.png" onclick="changeImg(this)" alt="Flyer Design for UNCC Event" link="#portfolio"></button>
+              <button class="item"><img src="/Images/flyer 5_17_19.png" onclick="changeImg(this)" alt="Flyer Design for UNCC Event" link="#portfolio"></button>
 
             </section>
           </div>
           </div>
       </div>
       
-     
+    <div class="footer">
+      <p>Caroline Wisse Gonzales | Cmwgonzales18@gmail.com | Charlotte, NC</p>
+    </div> 
   
 
   

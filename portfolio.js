@@ -34,34 +34,21 @@ $(function () {
 
 // gallery selection
 
-function changeImg1() {
+// function changeImg(imgs) {
+//   var imgCaption = document.getElementById('imgCaption');
+//   var image = document.getElementById('largeImg');
+  
+//   image.src = imgs.src;
+//   imgCaption.innerHTML = imgs.alt;
+// }
+
+
+function changeImg(imgs) {
   var imgCaption = document.getElementById('imgCaption');
   var image = document.getElementById('largeImg');
-  image.src = "/Images/theptcenter.png";
-  imgCaption.innerHTML = "<a href='https://www.physicaltherapycenter.org/' target='_blank'> Wordpress Website for The Physical Therapy Center </a>";
-}
+  var link = document.getElementById('imgLink');
 
-function changeImg2() {
-  var image = document.getElementById('largeImg');
-  image.src = "/Images/publicpolicy.png";
-}
-
-function changeImg3() {
-  var image = document.getElementById('largeImg');
-  image.src = "/Images/southerncharm.png";
-}
-
-function changeImg4() {
-  var image = document.getElementById('largeImg');
-  image.src = "/images/triangleface copy2.jpg";
-}
-
-function changeImg5() {
-  var image = document.getElementById('largeImg');
-  image.src = "/Images/BFBS Logo Splatters (Large).jpg";
-}
-
-function changeImg6() {
-  var image = document.getElementById('largeImg');
-  image.src = "/Images/CWG Web Designs.png";
+  link.href = imgs.getAttribute('link');
+  image.src = imgs.src;
+  imgCaption.innerHTML = imgs.alt;
 }
