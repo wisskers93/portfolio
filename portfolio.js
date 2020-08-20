@@ -34,14 +34,6 @@ $(function () {
 
 // gallery selection
 
-// function changeImg(imgs) {
-//   var imgCaption = document.getElementById('imgCaption');
-//   var image = document.getElementById('largeImg');
-  
-//   image.src = imgs.src;
-//   imgCaption.innerHTML = imgs.alt;
-// }
-
 
 function changeImg(imgs) {
   var imgCaption = document.getElementById('imgCaption');
