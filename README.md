@@ -1,3 +1,3 @@
 # Portfolio
 
-The professional portfolio for me, Caroline Wisse Gonzales
+The professional portfolio for Caroline Wisse Gonzales
